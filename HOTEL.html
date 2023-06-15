@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RESERVATION FORM</title>
+	 <link rel="stylesheet" href="Hotel.css">
+	 <link rel="stylesheet" href="Hotel.js">
+</head>
+<body onload="showForm()">
+    <div class="form-container">
+        <h2>RESERVATION FORM</h2>
+        <form name="reservationForm" onsubmit="return validateForm()" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="departureDate">Departure Date:</label>
+            <input type="date" id="departureDate" name="departureDate" required>
+
+            <label for="returnDate">Return Date:</label>
+            <input type="date" id="returnDate" name="returnDate" required>
+
+            <input type="submit" value="Submit Reservation">
+        </form>
+    </div>
+</body>
+</html>
