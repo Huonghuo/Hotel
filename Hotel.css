@@ -1,4 +1,4 @@
-    <style>
+
         body {
             display: flex;
             justify-content: center;
@@ -7,6 +7,7 @@
             background-image: url("sea-background-texture-1466765405Ve8.jpg");
             font-family: Arial, sans-serif;
             color: whitesmoke
+            text-align:center;
         }
 
         .form-container {
@@ -70,5 +71,4 @@
         .form-container input[type="submit"]:hover {
             background-color: white;
         }
-    </style>
     
